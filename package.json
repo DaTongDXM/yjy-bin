@@ -1,0 +1,29 @@
+{
+  "name": "yjy-bin",
+  "version": "1.0.0",
+  "description": "yjy-bin",
+  "main": "index.js",
+  "bin": {
+    "yjy-bin": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaTongDXM/yjy-bin.git"
+  },
+  "keywords": [
+    "yjy-bin",
+    "yjy-koa"
+  ],
+  "author": "wuxudong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaTongDXM/yjy-bin/issues"
+  },
+  "homepage": "https://github.com/DaTongDXM/yjy-bin#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
