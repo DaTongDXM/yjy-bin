@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/DaTongDXM/yjy-bin#readme",
   "dependencies": {
-    "inquirer": "^9.1.5"
+    "inquirer": "^7.1.0"
   }
 }
