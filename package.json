@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/DaTongDXM/yjy-bin#readme",
   "dependencies": {
+    "fs-extra": "^11.1.1",
     "inquirer": "^7.1.0"
   }
 }
