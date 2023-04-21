@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+ 
+      "target": "es2015",
+      "module": "commonjs",
+      "lib": ["es7"],
+      "declaration": true,
+      "declarationMap": false,
+      "sourceMap": true,
+      "outDir": "./dist",
+      
+      "rootDir": "./",
+      "rootDirs": ["./", "./dist"],
+      
+      "composite": true,
+      
+      "strict": true,
+      
+      "noImplicitAny": false,
+      
+      "noImplicitThis": false,
+      
+      "alwaysStrict": true,
+      
+      "moduleResolution": "node",
+      
+      "typeRoots": ["./node_modules/@types", "./interface"],
+      
+      "allowSyntheticDefaultImports": true,
+      
+      "esModuleInterop": true,
+      
+      "sourceRoot": "./lib",
+      
+      "experimentalDecorators": true,
+      
+      "emitDecoratorMetadata": true,
+      
+      "noEmitOnError": true,
+      "listEmittedFiles": true,
+      "pretty": true,
+      "version": true
+    },
+    "include": ["./core", "./interface"],
+    "exclude": ["node_modules", "./dist"]
+  }
